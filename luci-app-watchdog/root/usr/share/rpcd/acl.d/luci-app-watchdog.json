@@ -5,6 +5,7 @@
 			"file": {
 				"/etc/init.d/watchdog": [ "exec" ],
 				"/usr/share/watchdog/watchdog": [ "exec" ],
+				"/usr/share/watchdog/api/*": [ "read" ], 
 				"/tmp/watchdog/*": [ "read" ],
 				"/usr/libexec/watchdog-call": [ "exec" ],
 				"/bin/pidof": [ "exec" ]
